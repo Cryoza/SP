@@ -19,7 +19,7 @@
    <children>
       <HBox alignment="CENTER">
          <children>
-            <Label alignment="CENTER" text="Edit a player by entering the correct parameters below">
+            <Label alignment="CENTER" text="Create new player/Edit existing player">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>

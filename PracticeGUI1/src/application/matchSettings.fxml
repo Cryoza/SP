@@ -17,9 +17,9 @@
 
 <VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
 	<children>
-      <HBox>
+      <HBox alignment="CENTER">
          <children>
-            <Label text="Create a new match by entering the parameters below and adding players to current match team ">
+            <Label alignment="CENTER" text="Create new match/Edit existing match">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -62,7 +62,7 @@
 				<DatePicker GridPane.columnIndex="1" />
 				<ComboBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 				<ComboBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-				<TextField prefHeight="25.0" prefWidth="279.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+				<TextField maxWidth="-Infinity" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 				<Label text="Time" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
 					<GridPane.margin>
 						<Insets top="10.0" />
