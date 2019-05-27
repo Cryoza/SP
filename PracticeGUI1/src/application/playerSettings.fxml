@@ -48,7 +48,7 @@
             <TextField fx:id="name" onAction="#saveButtonAction" GridPane.columnIndex="1" />
             <TextField fx:id="number" alignment="CENTER" onAction="#saveButtonAction" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButtonAction" text="Save" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
-            <Button fx:id="close" mnemonicParsing="false" onAction="#closeButtonAction" text="Close" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Button fx:id="close" mnemonicParsing="false" onAction="#closeButtonAction" text="Cancel" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
             <ComboBox fx:id="position" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2">
              <items>
               <FXCollections fx:factory="observableArrayList">
